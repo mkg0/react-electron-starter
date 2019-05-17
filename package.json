@@ -1,0 +1,43 @@
+{
+  "name": "electron-quick-start",
+  "version": "0.0.1",
+  "description": "",
+  "main": "electron-starter.js",
+  "private": true,
+  "scripts": {
+    "start": "BROWSER=false react-scripts start",
+    "start-electron": "electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": "https://github.com/Audibene-GMBH/inno.toaster-research",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "arg": "^4.1.0",
+    "electron": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1",
+    "react-use": "^9.0.0"
+  }
+}
