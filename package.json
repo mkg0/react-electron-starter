@@ -5,8 +5,9 @@
   "main": "electron-starter.js",
   "private": true,
   "scripts": {
-    "start": "BROWSER=false react-scripts start",
+    "start-react": "BROWSER=false react-scripts start",
     "start-electron": "electron .",
+    "dev": "start-react && start-electron",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
